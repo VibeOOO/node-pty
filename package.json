@@ -20,7 +20,8 @@
     "deps/",
     "prebuilds/",
     "third_party/",
-    "typings/"
+    "typings/",
+    "build/"
   ],
   "homepage": "https://github.com/microsoft/node-pty",
   "bugs": {
@@ -42,9 +43,7 @@
     "postinstall": "node scripts/post-install.js",
     "compileCommands": "node scripts/gen-compile-commands.js",
     "test": "cross-env NODE_ENV=test mocha -R spec --exit lib/*.test.js",
-    "posttest": "npm run lint",
-    "prepare": "npm run build",
-    "prepublishOnly": "npm run build"
+    "posttest": "npm run lint"
   },
   "dependencies": {
     "node-addon-api": "^7.1.0"
