@@ -1,4 +1,4 @@
-# build/ - Now included in repo for fat directory pattern (pre-built .node files)
+/build/
 .lock-wscript
 out/
 Makefile.gyp
@@ -6,10 +6,11 @@ Makefile.gyp
 *.target.gyp.mk
 node_modules/
 builderror.log
-# lib/ - Keep compiled JavaScript for runtime
+lib/
 npm-debug.log
 fixtures/space folder/
 .vscode/settings.json
 .vscode/ipch/
 yarn.lock
-# prebuilds/ - Keep platform-specific prebuilt binaries
+prebuilds/
+# dist/ - Keep for pre-built binaries (dist/build/Release/*.node)
