@@ -14,3 +14,5 @@ fixtures/space folder/
 yarn.lock
 prebuilds/
 # dist/ - Keep for pre-built binaries (dist/build/Release/*.node)
+build
+dist
